@@ -64,35 +64,71 @@ class calbody extends JFrame {
         
            b1.addActionListener(new ActionListener(){
    public void actionPerformed(ActionEvent e) {
-        t1.setText("1");
+          t1.setText(t1.getText() + "1");
    }});
         
         Button b2 = new Button("2");
         p2.add(b2);
+        b2.addActionListener(new ActionListener(){
+   public void actionPerformed(ActionEvent e) {
+          t1.setText(t1.getText() + "2");
+   }});
         
         Button b3 = new Button("3");
         p2.add(b3);
+        b3.addActionListener(new ActionListener(){
+   public void actionPerformed(ActionEvent e) {
+          t1.setText(t1.getText() + "3");
+   }});
         
         Button b4 = new Button("4");
         p2.add(b4);
+        b4.addActionListener(new ActionListener(){
+   public void actionPerformed(ActionEvent e) {
+          t1.setText(t1.getText() + "4");
+   }});
         
         Button b5 = new Button("5");
         p2.add(b5);
+        b5.addActionListener(new ActionListener(){
+   public void actionPerformed(ActionEvent e) {
+          t1.setText(t1.getText() + "5");
+   }});
         
         Button b6 = new Button("6");
         p2.add(b6);
+        b6.addActionListener(new ActionListener(){
+   public void actionPerformed(ActionEvent e) {
+          t1.setText(t1.getText() + "6");
+   }});
         
         Button b7 = new Button("7");
         p2.add(b7);
+        b7.addActionListener(new ActionListener(){
+   public void actionPerformed(ActionEvent e) {
+          t1.setText(t1.getText() + "7");
+   }});
         
         Button b8 = new Button("8");
         p2.add(b8);
+        b8.addActionListener(new ActionListener(){
+   public void actionPerformed(ActionEvent e) {
+          t1.setText(t1.getText() + "8");
+   }});
         
         Button b9 = new Button("9");
         p2.add(b9);
+        b9.addActionListener(new ActionListener(){
+   public void actionPerformed(ActionEvent e) {
+          t1.setText(t1.getText() + "9");
+   }});
         
         Button b0 = new Button("0");
         p2.add(b0);
+        b0.addActionListener(new ActionListener(){
+   public void actionPerformed(ActionEvent e) {
+          t1.setText(t1.getText() + "0");
+   }});
         
         Button plus = new Button("+");
         p2.add(plus);
@@ -108,6 +144,10 @@ class calbody extends JFrame {
         
         Button clr = new Button("CE");
         p2.add(clr);
+        clr.addActionListener(new ActionListener(){
+   public void actionPerformed(ActionEvent e) {
+          t1.setText("");
+   }});
         
         b1.setFont(new Font("", 0, 30));
           b2.setFont(new Font("", 0, 30));
