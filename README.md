@@ -29,8 +29,3 @@ A simple desktop calculator built with Java Swing featuring a modern dark theme 
 - Proper operation sequence and calculation logic
 - Styled UI components with consistent design
 
-## Potential Enhancements
-- Memory functions
-- Scientific calculator features
-- Keyboard support
-- Calculation history
